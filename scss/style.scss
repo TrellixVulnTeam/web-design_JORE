@@ -1,0 +1,609 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.wrapper{
+
+    height: 835px;
+    background: radial-gradient(100% 316.05% at 100% 100%, #F5F5F5 0%, #4B50FA 52.08%, #F5F5F5 100%);
+    margin-top:0;
+    
+
+header{
+
+    height: 40px;
+    background-color: #4B50FA;
+    
+p{
+    padding-top: 10px;
+    text-align: center;
+margin:0;
+}
+
+
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    background-color: #fff;
+    height:96px;
+    top:0;
+    // position: sticky;
+
+
+    .logo-a{
+
+    text-decoration: none;
+
+    p{
+        font-size: 48px;
+        text-transform: uppercase;
+        margin-top:15px;
+        font-style: bold;
+        font-family: sans-serif;
+    }
+        
+    }
+
+    ul{
+        display:flex;
+li{
+display:inline-block ;
+list-style-type: none;
+margin: 18px 40px; 
+
+a{
+text-decoration:none;
+}
+
+
+}
+    .nav-p{
+        margin-left:-1rem;
+    }
+
+.li-d{
+    border-radius: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    // width: 210px;
+    height: 20px !important;
+    
+margin: 7px 0px !important;
+    a{
+        margin: 0px !important;
+    }
+
+}
+
+
+}
+// ul tugadi
+
+
+}
+
+    // nav tugadi
+
+.container{
+    position: relative;
+
+.row{
+    .col{
+        float:left;
+.img1{
+    position: absolute;
+    width: 649px;
+    height: 472px;
+    z-index: 2;
+}
+
+.img2{
+    z-index:1;
+    position: relative;
+    // margin-left: 25px;
+    width:217px;
+    height: 569px;
+}
+    
+
+    &:nth-child(1){
+        position: absolute;
+        margin:7.6rem 0 0 4.5rem;
+    }
+
+    &:nth-child(2){
+
+        position: relative;
+        margin: 5.5rem 1rem  3.2rem 41rem;
+    }
+p{
+    font-size: 29px;
+    font-family: sans-serif;
+    margin-top:20rem;
+    margin-left: 1.8rem;
+    font-weight: 500;
+}
+
+.btn{
+
+    background-color:black;
+    width: 350px;
+    height: 58px;
+    padding: 10px 12px 10px 12px;
+    color:white;
+    display:inline;
+    border-radius: 50px;
+    margin-left:2.2rem;
+}
+ 
+i{
+    display: block;
+    margin:2rem 0 0 2.2rem;
+    font-size: m-large;
+    vertical-align: middle;
+}
+    
+a{
+    display: inline;
+    margin:-2rem 0 6rem 1rem;
+    font-size: 16px;
+}
+
+
+
+    }
+  
+} 
+
+
+
+
+
+} // containerniki
+
+
+
+} //wrapperniki
+
+.wrapper-2{
+    margin:0 auto;
+    padding:0;
+    font-size: 18px;
+    top:0;
+    background-color:#F5F5F5;
+    height: 1196px;
+    width: 100%;
+
+
+    p{
+        margin: 0 !important;
+    }
+.img-center{
+    margin: 120px 60px 0 60px;
+    z-index: 1;
+}
+
+h1{
+    margin:2rem 0 0 8rem;
+    font-size: 45px;
+    font-style: bold;
+}
+
+h6 {
+    font-size: 20px;
+    margin: 10px;
+   
+    line-height: 1;
+    margin-left: 8rem;
+}
+
+.btn2{
+    position: absolute;
+    background: #4B50FA;
+    border-radius: 50px;
+    padding: 8px 8px ;
+    margin-left:8rem;
+    margin-top: 10px;
+color:#fff;
+font-size: 13px;
+}
+
+.img-right{
+    z-index: 2;
+margin:-15.5rem 0 7rem 58rem;
+}
+
+.vector{
+    z-index: 3;
+    margin:-68rem 0 23.2rem 52.5rem;
+}
+
+.vector1{
+    z-index: 4;
+    margin:-68rem 0 26.2rem 54.3rem;
+}
+
+
+} //wrapper2 tugadi
+
+.wrapper-3{
+position: relative;
+margin: 0;
+padding: 0;
+background-color: #FFB480;
+margin-top: 0;
+height: 840px;
+p{
+    position: absolute;
+    display: inline-block;
+    font-size: 22px;
+    margin: 24rem 0 0 -25rem;
+}
+.t-img{
+    display: inline-block;
+    margin: 5rem 0 0 6rem;
+}
+
+.btn3{
+   position: absolute;
+   background-color:#4B50FA;
+border-radius: 24px;
+padding:10px;
+margin:6rem 6.5rem;
+flex-shrink: 9px;
+color:#fff;
+}
+
+.min-wrap{
+    float: right;
+    margin: 5rem 5rem 10rem -2rem;
+
+    img{
+        margin-left:1.3rem;
+    }
+}
+}
+
+
+
+.wrapper-4{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #FFB480;
+    margin-top: 0;
+    height: 840px;
+    p{
+        position: absolute;
+        display: inline-block;
+        font-size: 22px;
+        margin: 24rem 0 0 -32rem;
+    }
+
+    .t-img{
+        display: inline-block;
+        margin: 5rem 0 0 6rem;
+    }
+    
+    .btn3{
+    position: absolute;
+    background-color:#4B50FA;
+    border-radius: 24px;
+    padding:10px;
+    margin:6rem 6.5rem;
+    color:#fff;
+    display: inline;
+    }
+    
+    .min-wrap{
+        float: right;
+        margin: 5rem 5rem 10rem -2rem;
+    
+        img{
+            margin-left:1.3rem;
+        }
+    }
+
+} //3warapper tugadi
+
+.wrapper-4{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/stol.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    height:920px;
+    // width:100%;
+    p{
+        position: absolute;
+        display: inline-block;
+        font-size: 19px;
+        margin: 24rem 0 0 -32rem;
+    //     left: 101px;
+    // top: 337px;
+    }
+
+    .s-img{
+        display: inline-block;
+        margin: 5rem 0 0 6rem;
+    }
+    
+    .btn4{
+       position: absolute;
+       display: inline-block;
+       background-color:#4B50FA;
+    border-radius: 24px;
+    padding:10px;
+    // margin:6rem 6.5rem;
+    // flex-shrink: 9px;
+left:8rem;
+top:29rem;
+    color:#fff;
+    }
+    
+    .min-wrap{
+        float: right;
+        margin: 5rem 5rem 10rem -2rem;
+    
+        img{
+            margin-left:1.3rem;
+        }
+    }
+
+}
+//4-wrapper tugadi
+
+.wrapper-5{
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #0A3232;
+    height:823px;
+    
+h1{
+    display: inline;
+    position: absolute;
+    font-size: 50px;
+    color:#fff;
+    margin: 9.5rem 0rem 15rem 6rem;
+    font-weight: 300;
+    font-style: bold;
+    font-family:sans-serif;
+}
+
+p{
+    font-size:17px;
+    color:#F5F5F5;
+   position: absolute;
+    margin: 21rem 0 0 6rem;
+}
+    hr{
+        position: absolute;
+        width: 520px;
+        margin:35.5rem 0 0 5.2rem;
+    }
+
+img{
+    margin: 6rem 2rem 9rem 51rem;
+}
+
+
+.btn5{
+     position: absolute;
+border:solid 1.1px white;
+    border-radius: 24px;
+    width:140px;
+    margin: 26rem 6.5rem;
+    padding: 8px;
+    text-align: center;
+    color:#fff;
+
+}
+
+} // 5-wrapper tugadi
+
+
+.wrapper-6{
+height: 890px;
+
+.wrp-txt{
+    font-size: 55px;
+    margin:4rem 0 0 5rem;
+}
+
+section{
+    margin:auto 0;
+    padding:6rem  0 2px 16rem;
+    height:240px;
+    background-color: rgb(255, 255, 255);
+
+
+
+    .card{
+    box-sizing: border-box;
+    width: 246px;
+    height: 320px;
+    float: left;
+    top: 0;
+    // margin: 0 0rem 0 0rem;
+    border: solid 3px black;
+    margin-left:10px;
+    padding: 31px;
+}
+
+
+    }
+
+
+        } //6-wrapper tugadi
+        
+        
+        //section 
+
+
+    table{
+display:inline-block;
+top:4px;
+        margin-top:0.5rem;
+    padding-left:16rem;
+    height:320px;
+    background-color: rgb(255, 255, 255);
+        th{ box-sizing: border-box;
+            width: 246px;
+            height: 178px;
+            float: left;
+            top: 0;
+            border: solid 0px black;
+            margin-left: 10px;
+            padding: 0px;
+            text-align: left;
+            font-weight: 100;
+        }
+    } //tabel tugadi
+
+    .wrapper-7{
+        margin:0 auto;
+        padding:4rem;
+        top:0;
+        height: 420px;
+        background-color: #F5F5F5;
+        text-align: center;
+        
+.x-icon{
+    margin-top: 2rem;
+}
+        h1{
+            font-weight: 400;
+            font-family: roboto;
+        }
+    } // wrapper-7 tugadi
+
+.wrapper-8{
+    margin:0 auto;
+    padding:4rem;
+    top:0;
+    height: 750px;
+    background-color: #F5F5F5;
+
+    .womn{
+        margin-left:10rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .btn6{
+        display: inline;
+        margin-left: -47.5rem;
+        padding: 8px;
+        border: 1px solid black;
+        border-radius: 24px;
+        left: 0;
+        width: 322px;
+        padding: 9px 320px 9px 320px;
+    }
+
+    .card-b{
+    box-sizing: border-box;
+    width: 291px;
+    height: 35.5rem;
+    float: right;
+    top: 0;
+    background-color: #0A3232;
+    color:#F5F5F5; 
+    border: solid 1px black;
+    margin-right:8rem;
+    padding: 31px;
+    border-radius: 3px;
+
+    span{
+        margin-bottom: -12rem;
+    }
+    }
+
+
+} // wrapper-8 tugadi
+
+.wrapper-9{
+    position: relative;
+    margin:0;
+    padding:0;
+    background-color: #4B50FA;
+    color:#fff;
+    height: 692px;
+
+.wr-e{
+    position: absolute;
+    padding: 0;
+    margin: 4rem 0 0  0rem;
+   
+
+ul{
+    float:left;
+    margin-left: 7.5rem;
+
+li{
+    list-style-type: none;
+    margin-top: 20px;
+}}}
+
+
+
+.ul-c{
+    position: absolute;
+    display: flex;
+    color: #F5F5F5;
+    left: 0;
+    margin: 35rem 0 0 -1rem;
+
+    .li-c{
+        float:left;
+        list-style-type: none;
+        margin:20px;
+    }
+
+.fab{
+    color:#fff;
+}
+
+}
+
+.ul-l{
+    color:#F5F5F5;
+    position: absolute;
+    display: flex;
+    margin:39rem 0 0 -1rem;
+
+    .li-l{
+        list-style-type: none;
+        float:left;
+        font-size: 14px;
+        margin: 12px;
+    }
+}
+
+.fot-img{
+    position: absolute;
+    display: inline;
+    margin:22rem 0 0 30rem;
+}
+
+p{
+    float:right;
+    margin:39.5rem 9rem 0 0;
+    font-size: 14px;
+}
+
+} //9-wrapper
+
+// 2021.04.03 15:19 Mukhriddin Khodiev @muhriddin_uz
+
+
+
+
+
